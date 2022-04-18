@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "dictconfig-interceptor"
+version = "0.1.0"
+description = ""
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/smithk86/dictconfig-interceptor"
+authors = ["Kyle Smith <smithk86@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+mypy = "*"
+pytest-mypy = "*"
+
+[tool.pytest.ini_options]
+addopts = "--mypy"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

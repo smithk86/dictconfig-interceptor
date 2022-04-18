@@ -1,1 +1,1 @@
-# logging-dictconfig-callback
+# dictconfig-interceptor
